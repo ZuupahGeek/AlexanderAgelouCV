@@ -29,9 +29,9 @@ const Navbar = () => {
         </HashLink>
       </div>
       <div className='navbar-socials'>
-        <Link to="https://linkedin.com" target={'_blank'}><i class="fa-brands fa-linkedin"></i></Link>
-        <Link to="https://www.instagram.com/trumpet_joche/" target={'_blank'}><i className="fa-brands fa-instagram"></i></Link>
-        <Link to="https://github.com/ZuupahGeek" target={'_blank'}><i class="fa-brands fa-facebook"></i></Link>
+        <Link to="https://www.linkedin.com/in/alexander-agelou-57868b236/" target={'_blank'}><i class="fa-brands fa-linkedin"></i></Link>
+        <Link to="https://www.instagram.com/alexanderagelou/" target={'_blank'}><i className="fa-brands fa-instagram"></i></Link>
+        <Link to="https://www.facebook.com/Alexander.agelou" target={'_blank'}><i class="fa-brands fa-facebook"></i></Link>
         
       </div>
       <ul className='navbar-links'>
