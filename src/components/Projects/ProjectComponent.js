@@ -1,10 +1,11 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import './ProjectComponent.css';
-import ImgKris from "../../assets/kris.png";
-import ImgFMCorner from "../../assets/FMCORNER.png";
-import ImgOutro from "../../assets/outro.png";
-import ImgSusanne from "../../assets/Susanne_Evolution_C.png";
+import ImgKris from "../../assets/kris-thumbnail.webp";
+import ImgFMCorner from "../../assets/FMCORNER-thumbnail.webp";
+import ImgOutro from "../../assets/outro-thumbnail.webp";
+import ImgSusanne from "../../assets/Susanne_Evolution_C-thumbnail.webp";
+import ImgPodemon from "../../assets/Podemon-thumbnail.webp";
 
 const ProjectComponent = () => {
 
@@ -28,6 +29,11 @@ const ProjectComponent = () => {
           "id": 4,
           "imgURL": ImgSusanne,
           "imgAlt": "Studio Susanne Digital Art"
+        },
+        {
+          "id": 5,
+          "imgURL": ImgPodemon,
+          "imgAlt": "Podemon Digital Art"
         },
         
         
