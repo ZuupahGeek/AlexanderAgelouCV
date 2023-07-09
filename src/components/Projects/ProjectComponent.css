@@ -1,0 +1,37 @@
+
+.portfolio-collection {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 10px;
+    max-width: 80rem;
+}
+.portfolio-card {
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 25rem;
+    height: 15rem;
+}
+
+.portfolio-content img {
+    width: 20rem;
+}
+.portfolio-content h5 {
+    text-align: center;
+    font-size: 1rem;
+    width: 25rem;
+}
+
+.portfolio-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+.portfolio-links a:hover {
+    text-decoration: none;
+    color: #a78c72;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,65 @@
+.contact-page {
+    background-color: azure; 
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    padding-left: 21rem;
+}
+.contact-page > h1 {
+    z-index: 3;
+    padding-bottom: 0.4rem;
+    width: 4rem;
+    border-bottom: 3px solid rgb(0, 2, 20);
+}
+.contact-content {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.contact-page h3 {
+    font-size: x-large;
+    text-align: center;
+}
+.contact-form {
+    border-radius: 10px;
+    
+    height: 20rem;
+    width: 30rem;
+}
+
+.contact-form input {
+
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    display: block;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    width: 88%;
+    max-width: 88%;
+    min-width: 88%;
+    height: 3rem;
+    max-height: 3rem;
+    min-height: 3rem;
+    border-radius: 10px;
+
+}
+.contact-form input::placeholder {
+
+}
+.contact-form textarea::placeholder {
+ 
+}
+.form-btn {
+
+    width: 6rem;
+    height: 3rem;
+    border-radius: 10px;
+}

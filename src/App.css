@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+
+}
+.container {
+  display: flex;
+}
+.App {
+  text-align: center;
+}
+
+.d-flex {
+  display:flex;
+}
+

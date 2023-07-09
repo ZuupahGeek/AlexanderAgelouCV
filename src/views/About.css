@@ -1,0 +1,38 @@
+.about-page {
+    padding-top: 2rem;
+    padding-left: 21rem;
+    background-color: #ffdebf;
+    padding-bottom: 3rem;
+}
+.about-page h1{
+    z-index: 3;
+    padding-bottom: 0.4rem;
+    width: 4rem;
+    border-bottom: 3px solid #000;
+
+}
+.about-intro {
+    margin-top: 1rem;
+}
+.about-info {
+    margin-top: 2rem;
+    display: flex;
+}
+.about-info h4 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+.about-info img {
+    width: 15rem;
+}
+.about-info .container {
+    margin-left: 2rem;
+    width: 40rem;
+    justify-content: space-between;
+}
+.about-info .container p {
+    font-size: 1.1rem;
+}
+.about-info .container div {
+    margin-right: 1rem;
+}

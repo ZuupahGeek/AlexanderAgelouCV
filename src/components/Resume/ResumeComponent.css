@@ -1,0 +1,53 @@
+.schoolComponent {
+    width: 30rem;
+}
+.jobComponent {
+    width: 30rem;
+}
+
+
+
+.rendered h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.rendered button {
+    border: none;
+    background-color: #fff;
+    font-size: 1rem;
+}
+.rendered button:hover {
+    color: #aa8f74;
+    font-size: 1.1rem;
+    cursor:pointer;
+}
+
+
+.card {
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    border-left: 4px dotted black;
+    
+}
+
+.card-content h2 {
+    font-size: 1rem;
+}
+.card-content h5 {
+    font-style: italic;
+    font-weight: 500;
+}
+.date-text {
+    text-align: center;
+    right: 1%;
+    left: 1%;
+    width: 11rem;
+    background-color: #aa8f74;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+.date-text p {
+    font-size: 0.9rem;
+}
+

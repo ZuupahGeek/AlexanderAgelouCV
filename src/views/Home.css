@@ -1,0 +1,38 @@
+.home-page {
+
+    height: 100vh;
+   
+}
+.background-img {
+    background: image('../assets/pixel-me.png');
+    position: relative;
+}
+.background-img img {
+    z-index: -10;
+    filter:brightness(70%);
+    position:fixed;
+    width: 85%;
+    left: 18rem;
+}
+.background-img h2 {
+    font-family: "athelas", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-size: 2.5rem;
+    color: aliceblue;
+    position: absolute;
+    z-index: 3;
+    width: 25rem;
+    top: 20rem;
+    left: 25rem;
+}
+.background-img h4 {
+    font-size: 1.8rem;
+    color: aliceblue;
+    position: absolute;
+    z-index: 2;
+    width: 30rem;
+    top: 23.5rem;
+    left: 25rem;
+}

@@ -1,0 +1,14 @@
+.project-page {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-left: 20rem;
+    background-color: #ffdebf;
+}
+.project-page > h1{
+    z-index: 3;
+    padding-bottom: 0.4rem;
+    margin-bottom: 2rem;
+    width: 4rem;
+    border-bottom: 3px solid black;
+
+}

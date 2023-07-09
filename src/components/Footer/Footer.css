@@ -1,0 +1,21 @@
+.footer {
+    margin-left: 18rem;
+    background-color: #fff;
+    display: flex;
+    height: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+.footer h3 {
+    margin-right: 3rem;
+}
+.footer a {
+    margin-left: -2.5rem;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.footer a ::after {
+    color: black;
+}
