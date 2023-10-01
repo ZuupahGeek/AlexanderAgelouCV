@@ -2,6 +2,7 @@
 import './App.css';
 import { BrowserRouter } from "react-router-dom";
 import Navbar from './components/navbar/Navbar';
+import NavbarMobile from './components/navbarMobile/NavbarMobile';
 import Home from './views/Home'
 import About from './views/About';
 import Resume from './views/Resume';
@@ -13,7 +14,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="d-flex">
-        <div><Navbar /></div>
+        {/* <div><Navbar /></div> */}
+        <div><NavbarMobile /></div>
       
         <div id='views'>    
           <div id="home">
