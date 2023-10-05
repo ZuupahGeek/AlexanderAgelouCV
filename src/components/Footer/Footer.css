@@ -19,6 +19,9 @@
 .footer a ::after {
     color: black;
 }
+.footer-mail {
+    display: flex;
+}
 
 @media only screen and (max-width: 992px) {
     .footer {
@@ -26,9 +29,7 @@
 
 
     }
-    .footer-mail {
-        display: flex;
-    }
+   
 
 }
 
