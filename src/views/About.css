@@ -82,3 +82,12 @@
    
     }
 }
+
+@media only screen and (max-width: 400px) {
+
+    .about-info .grid-container {
+
+        grid-template-columns: auto;
+   
+    }
+}

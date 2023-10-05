@@ -66,3 +66,31 @@ body, html {
       }
 
 }
+
+@media only screen and (max-width: 400px) {
+    .navbar-mobile {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .navbar-mobile-name {
+        font-size:0.5rem;
+        width: 3rem;
+    }
+    .navbar-mobile  span {
+        font-size: 1rem;
+
+    }
+      .navbar-mobile-socials {
+        font-size: 1.3rem; 
+    }
+    .navbar-mobile-socials a {
+        margin-left: 0.3rem;
+        
+    }
+    .navbar-mobile-links {
+        width: 11rem;
+       
+
+    }
+
+}
