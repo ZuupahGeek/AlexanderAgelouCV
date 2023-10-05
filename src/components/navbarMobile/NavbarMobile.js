@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './NavbarMobile.css'
-import Headshot from '../../assets/CV23G-cropped.png'
 import { HashLink } from 'react-router-hash-link';
 
 
