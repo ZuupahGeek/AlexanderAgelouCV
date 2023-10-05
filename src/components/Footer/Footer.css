@@ -1,5 +1,4 @@
 .footer {
-    margin-left: 18rem;
     background-color: #fff;
     display: flex;
     height: 6rem;
@@ -8,6 +7,7 @@
 }
 .footer h3 {
     margin-right: 3rem;
+
 }
 .footer a {
     margin-left: -2.5rem;
@@ -18,4 +18,30 @@
 }
 .footer a ::after {
     color: black;
+}
+
+@media only screen and (max-width: 992px) {
+    .footer {
+        flex-direction: column;
+
+
+    }
+    .footer-mail {
+        display: flex;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .footer {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+    }
+
 }

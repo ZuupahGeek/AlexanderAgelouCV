@@ -1,16 +1,9 @@
 
-.background-img {
-    /* background: url('../assets/CV23G-bg.png'); */
-    /* position: relative; */
-}
-
 .background-img img {
-    /* z-index: -10; */
-    filter:brightness(70%);
-   
-    width: 85%;
-    margin-left: 18rem;
-    height: 100%;
+    padding-top: 3.5rem;
+    filter:brightness(80%);
+    width: 100%;
+    height:auto;
 }
 .background-img h2 {
     font-family: "athelas", serif;
@@ -21,7 +14,7 @@
     color: aliceblue;
     position: absolute;
     z-index: 1;
-    width: 25rem;
+    /* width: 25rem; */
     top: 20rem;
     left: 25rem;
 }
@@ -34,3 +27,46 @@
     top: 23.5rem;
     left: 25rem;
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .background-img img {  
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .background-img h2 {
+        font-size: 2.5rem;
+        width: 20rem;
+        top: 14rem;
+    }
+   
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .background-img h2 {
+        font-size: 2.5rem;
+        width: 20rem;
+        top: 20rem;
+        left: 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .background-img h2 {
+        font-size: 2.2rem;
+        width: 20rem;
+        top: 20rem;
+        left: 3rem;
+    }
+}
+
+
+
+

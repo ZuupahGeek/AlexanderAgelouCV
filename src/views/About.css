@@ -1,6 +1,8 @@
 .about-page {
-    padding-top: 2rem;
-    padding-left: 21rem;
+    width: 100%;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     background-color: #ffdebf;
     padding-bottom: 3rem;
     margin-top: -1rem;
@@ -17,7 +19,12 @@
 }
 .about-info {
     margin-top: 2rem;
-    display: flex;
+}
+.about-info .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 50px ;    
 }
 .about-info h4 {
     margin-bottom: 1rem;
@@ -36,4 +43,42 @@
 }
 .about-info .container div {
     margin-right: 1rem;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    .about-info .grid-container {
+
+        grid-template-columns: auto auto;
+   
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .about-info .grid-container {
+
+        grid-template-columns: auto auto auto auto;
+   
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .about-info .grid-container {
+
+        grid-template-columns: auto auto auto;
+   
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .about-info .grid-container {
+
+        grid-template-columns: auto auto;
+   
+    }
 }

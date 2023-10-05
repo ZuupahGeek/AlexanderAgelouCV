@@ -17,25 +17,25 @@ inom klädesbranschen och försäljning.</p>
         <div className='about-info'>
             <div>
             <h4>Kompetenser</h4>
-                <div className='container'>
-                    <div>
+                <div className='grid-container'>
+                    <div className='grid-item'>
                         <p>Adobe CC</p>
                         <li>Illustrator</li>
                         <li>InDesign</li>
                         <li>Photoshop</li>
                     </div>
-                    <div>
+                    <div className='grid-item'>
                         <p>Program</p>
                         <li>Office-paketet</li>
                         <li>Figma</li>
                     </div>
-                    <div>
+                    <div className='grid-item'>
                         <p>Språk</p>
                         <li>Svenska</li>
                         <li>Engelska</li>
                         <li>Grekiska</li>
                     </div>
-                    <div>
+                    <div className='grid-item'>
                         <p>Övrigt</p>
                         <li>Service Minded</li>
                         <li>Textilkunskaper</li>

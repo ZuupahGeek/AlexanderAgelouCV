@@ -13,9 +13,9 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <BrowserRouter>
-      <div className="d-flex">
-        {/* <div><Navbar /></div> */}
-        <div><NavbarMobile /></div>
+      <div>
+        <div className='app-navbar'><Navbar /></div>
+        <div className='app-navbar-mobile'><NavbarMobile /></div>
       
         <div id='views'>    
           <div id="home">

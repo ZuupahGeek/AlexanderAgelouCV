@@ -6,7 +6,8 @@ body, html {
     font-family: "mr-eaves-modern", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    /* margin-right: 3rem; */
   }
 .navbar-mobile a {
     text-decoration: none;
@@ -14,52 +15,54 @@ body, html {
 .navbar-mobile {
     z-index: 10;
     padding-left: 2rem;
+    padding-right: 2rem;
     background-color: #a78c72;
     width: 100%;
-    height: 3rem;
+    height: 3.5rem;
     position: fixed;
-}
-.navbar-mobile-header {
-    padding-top: 1rem;
     display: flex;
-    padding-left: 2rem;
+    justify-content: space-between;
+    align-items: center;
 }
-/* .navbar-mobile-header img {
-    box-sizing: content-box;
-    width: 9rem;
-    aspect-ratio: 4/4;
-    border-radius: 100% / 125% 125% 80% 80%;
-    border: 7px solid #a78c72;
-} */
+
 .navbar-mobile-name {
-    margin-left: 0.8rem;
+    font-size:0.8rem;
 }
-.navbar-mobilename h1 {
-    color: #fff;
+.navbar-mobile-name h1 {
+    color: #ffffff;
+    
 }
 .navbar-mobile-socials {
-    font-size: 1.3rem;
-    margin-top: 0.6rem;
-    margin-right: 2rem;
-    display: flex;
-    justify-content: end;
+    font-size: 1.3rem;  
+}
+.navbar-mobile-socials a {
+    margin-left: 1rem;
     
 }
 .navbar-mobile-socials i {
     color: #fff;
 }
+
 .navbar-mobile-links {
-    margin-top: 2rem;
-    margin-left: 1rem;
-}
-.navbar-mobile-links li {
-    color: #fff;
-    margin-bottom: 1rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .navbar-mobile-links a {
     color: #fff;
     text-decoration: none;
 }
-.navbar-mobile-links i{
-    margin-right: 1rem;
+
+
+@media only screen and (max-width: 600px) {
+    .navbar-mobile-name {
+        font-size:0.7rem;
+        width: 6rem;
+    }
+    .navbar-mobile  span {
+        font-size: 1.3rem;
+
+      }
+
 }

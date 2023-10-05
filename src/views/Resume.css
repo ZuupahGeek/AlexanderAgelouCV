@@ -1,7 +1,7 @@
 .resume-page {
 
     padding-top: 4rem;
-    padding-left: 21rem;
+    padding-left: 3rem;
     padding-bottom: 5rem;
     background-color: #ffffff;
 }
@@ -14,6 +14,30 @@
 }
 .resume-components {
     padding-top: 1rem;
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 5rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .resume-components {
+        grid-template-columns: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .resume-components {
+        grid-template-columns: auto auto;
+        gap: 1rem;
+    }
+}
+@media only screen and (max-width: 700px) {
+
+    .resume-components {
+        grid-template-columns: auto;
+        gap: 1rem;
+    }
 }

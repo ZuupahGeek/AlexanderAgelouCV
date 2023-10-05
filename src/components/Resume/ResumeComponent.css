@@ -2,7 +2,7 @@
     width: 30rem;
 }
 .jobComponent {
-    width: 30rem;
+    width: 15rem;
 }
 
 
@@ -25,7 +25,7 @@
 
 .card {
     margin-bottom: 1rem;
-    padding-right: 2rem;
+    /* padding-right: 2rem; */
     padding-left: 1rem;
     border-left: 4px dotted black;
     
@@ -51,3 +51,22 @@
     font-size: 0.9rem;
 }
 
+@media only screen and (max-width: 1300px) {
+
+    .schoolComponent {
+        width: 25rem;
+    }
+    .jobComponent {
+        width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .schoolComponent {
+        width: 20rem;
+    }
+    .jobComponent {
+        width: 15rem;
+    }
+}
